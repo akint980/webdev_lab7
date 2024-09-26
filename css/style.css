@@ -43,18 +43,18 @@ body {
 }
 
 #planet-facts th, 
-#planet-facts td:hover {
+#planet-facts td{ 
   padding: 12px;
   text-align: center;
   border: 1px solid #ddd;
 }
 
-#planet-facts th {
+#planet-facts th:hover {
   background-color: #4CAF50;
   color: white;
 }
 
-tr:nth-child(even) {
+tr {
   background-color: #f9f9f9;
 }
 
