@@ -8,10 +8,11 @@ body {
 #main-title {
   text-align: center;
   color: #333;
+  margin-bottom: 20px;
 }
 
 .fact-table {
-  width: 50%;
+  width: 75%;
   border-collapse: collapse;
   margin-top: 20px;
 }
