@@ -1,41 +1,46 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
+#main-title {
+  text-align: center;
+  color: #333;
 }
 
-h2 {
-    color: #666;
-    margin-top: 40px;
+.fact-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-.fact-sheet {
-    width: 50%;
-    border-collapse: collapse;
-    margin-top: 20px;
+.parameter{
+  font-weight: bold;
+  background-color: #e0e0e0;
 }
 
-th, td {
-    padding: 12px;
-    text-align: center;
-    border: 1px solid #ddd;
+.planet:hover {
+  text-align: center;
 }
 
-th:hover {
-    background-color: #4CAF50;
-    color: white;
+#planet-facts th, 
+#planet-facts td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
 }
 
-tr  {
-    background-color: #f9f9f9;
+#planet-facts th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
 
 tr:hover {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
