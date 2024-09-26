@@ -1,80 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Planetary Fact Sheet</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>Planetary Fact Sheets</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Planetary Fact Sheet</h1>
-  <table id="planets">
-    <thead>
-      <tr class="header-row">
-        <th class="property-header">Property</th>
-        <th class="planet-header">Mercury</th>
-        <th class="planet-header">Venus</th>
-        <th class="planet-header">Earth</th>
-        <th class="planet-header">Moon</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="image-row">
-        <td>Images</td>
-        <td><img src="images/planet_1.png" alt="Mercury" class="planet-image"></td>
-        <td><img src="images/planet_2.png" alt="Venus" class="planet-image"></td>
-        <td><img src="images/planet_3.png" alt="Earth" class="planet-image"></td>
-        <td><img src="images/planet_4.png" alt="Moon" class="planet-image"></td>
-      </tr>
-      <tr>
-        <td class="property">Diameter (km)</td>
-        <td>4879</td>
-        <td>12,104</td>
-        <td>12,756</td>
-        <td>3475</td>
-      </tr>
-      <tr>
-        <td class="property">Density (kg/m<sup>3</sup>)</td>
-        <td>5429</td>
-        <td>5243</td>
-        <td>5514</td>
-        <td>3340</td>
-      </tr>
-      <tr>
-        <td class="property">Gravity (m/s<sup>2</sup>)</td>
-        <td>3.7</td>
-        <td>8.9</td>
-        <td>9.8</td>
-        <td>1.6</td>
-      </tr>
-      <tr>
-        <td class="property">Escape Velocity (km/s)</td>
-        <td>4.3</td>
-        <td>10.4</td>
-        <td>11.2</td>
-        <td>2.4</td>
-      </tr>
-      <tr>
-        <td class="property">Rotation Period (hours)</td>
-        <td>1407.6</td>
-        <td>5832.5</td>
-        <td>23.9</td>
-        <td>655.7</td>
-      </tr>
-      <tr>
-        <td class="property">Length of Day (hours)</td>
-        <td>4222.6</td>
-        <td>2802.0</td>
-        <td>24.0</td>
-        <td>708.7</td>
-      </tr>
-      <tr>
-        <td class="property">Distance from Sun (10<sup>6</sup> km)</td>
-        <td>57.9</td>
-        <td>108.2</td>
-        <td>149.6</td>
-        <td>0.384</td>
-      </tr>
-    </tbody>
-  </table>
+    <h1>Planetary Fact Sheets</h1>
+
+    <section id="mercury">
+        <h2>Mercury Fact Sheet</h2>
+        <table class="fact-sheet">
+            <thead>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Mercury</th>
+                    <th>Earth</th>
+                    <th>Ratio (Mercury/Earth)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Mass (10<sup>24</sup> kg)</td><td>0.33010</td><td>5.9722</td><td>0.0553</td></tr>
+                <tr><td>Volume (10<sup>10</sup> km<sup>3</sup>)</td><td>6.083</td><td>108.321</td><td>0.0562</td></tr>
+                <tr><td>Equatorial Radius (km)</td><td>2440.5</td><td>6378.1</td><td>0.383</td></tr>
+                <tr><td>Polar Radius (km)</td><td>2438.3</td><td>6356.8</td><td>0.384</td></tr>
+                <tr><td>Mean Density (kg/m<sup>3</sup>)</td><td>5429</td><td>5513</td><td>0.98</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="venus">
+        <h2>Venus Fact Sheet</h2>
+        <table class="fact-sheet">
+            <thead>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Venus</th>
+                    <th>Earth</th>
+                    <th>Ratio (Venus/Earth)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Mass (10<sup>24</sup> kg)</td><td>4.867</td><td>5.9722</td><td>0.815</td></tr>
+                <tr><td>Volume (10<sup>10</sup> km<sup>3</sup>)</td><td>9.284</td><td>108.321</td><td>0.086</td></tr>
+                <tr><td>Equatorial Radius (km)</td><td>6051.8</td><td>6378.1</td><td>0.950</td></tr>
+                <tr><td>Mean Density (kg/m<sup>3</sup>)</td><td>5243</td><td>5513</td><td>0.951</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="earth">
+        <h2>Earth Fact Sheet</h2>
+        <table class="fact-sheet">
+            <thead>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Earth</th>
+                    <th>Earth</th>
+                    <th>Ratio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Mass (10<sup>24</sup> kg)</td><td>5.9722</td><td>5.9722</td><td>1.00</td></tr>
+                <tr><td>Volume (10<sup>10</sup> km<sup>3</sup>)</td><td>108.321</td><td>108.321</td><td>1.00</td></tr>
+                <tr><td>Equatorial Radius (km)</td><td>6378.1</td><td>6378.1</td><td>1.00</td></tr>
+                <tr><td>Mean Density (kg/m<sup>3</sup>)</td><td>5513</td><td>5513</td><td>1.00</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="moon">
+        <h2>Moon Fact Sheet</h2>
+        <table class="fact-sheet">
+            <thead>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Moon</th>
+                    <th>Earth</th>
+                    <th>Ratio (Moon/Earth)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Mass (10<sup>24</sup> kg)</td><td>0.073</td><td>5.9722</td><td>0.0122</td></tr>
+                <tr><td>Volume (10<sup>10</sup> km<sup>3</sup>)</td><td>0.0219</td><td>108.321</td><td>0.0002</td></tr>
+                <tr><td>Equatorial Radius (km)</td><td>1737.4</td><td>6378.1</td><td>0.272</td></tr>
+                <tr><td>Mean Density (kg/m<sup>3</sup>)</td><td>3340</td><td>5513</td><td>0.606</td></tr>
+            </tbody>
+        </table>
+    </section>
+
 </body>
 </html>
