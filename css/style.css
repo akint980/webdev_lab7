@@ -11,22 +11,38 @@ body {
 }
 
 .fact-table {
-  width: 50%;
+  width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
 }
 
-.parameter{
+.parameter {
   font-weight: bold;
   background-color: #e0e0e0;
 }
 
-.planet:hover {
+.mercury {
+  background-color: #d2b48c;
+}
+
+.venus {
+  background-color: #ffcc00;
+}
+
+.earth {
+  background-color: #1e90ff;
+}
+
+.moon {
+  background-color: #dcdcdc;
+}
+
+.planet {
   text-align: center;
 }
 
 #planet-facts th, 
-#planet-facts td {
+#planet-facts td:hover {
   padding: 12px;
   text-align: center;
   border: 1px solid #ddd;
@@ -34,7 +50,7 @@ body {
 
 #planet-facts th {
   background-color: #4CAF50;
-  color: grey;
+  color: white;
 }
 
 tr:nth-child(even) {
